@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.hidden-for-pdf {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 1000px; /* Match windowWidth for html2canvas */
+    padding: 20px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: black;
+}
+
+.hidden-for-pdf h1, .hidden-for-pdf h2, .hidden-for-pdf h3 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+}
+
+.hidden-for-pdf h1 { font-size: 24px; }
+.hidden-for-pdf h2 { font-size: 20px; }
+.hidden-for-pdf h3 { font-size: 16px; }
+.hidden-for-pdf p { font-size: 12px; line-height: 1.5; margin-bottom: 1em; }
+.hidden-for-pdf ul, .hidden-for-pdf ol { margin-left: 20px; margin-bottom: 1em; }
+.hidden-for-pdf li { font-size: 12px; line-height: 1.5; }
+.hidden-for-pdf code { 
+    background-color: #f0f0f0; 
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+.hidden-for-pdf pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.hidden-for-pdf table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.hidden-for-pdf th, .hidden-for-pdf td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 11px;
+    text-align: left;
+}
+.hidden-for-pdf th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
